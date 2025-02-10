@@ -34,7 +34,7 @@ export const Projects = () => {
         transition={{ duration: 0.8 }}
       >
         <Canvas camera={{ position: [0, 0, 12], fov: 70 }}>
-          <Carousel radius={7.5} count={7} />
+          <Carousel radius={9} count={6} />
         </Canvas>
       </motion.div>
     </motion.section>
@@ -95,7 +95,7 @@ function Card({ url, position, onHover, onClick }) {
       <Image
         url={url}
         scale={[1.7, 1.2, 1]}
-        position={[0, 0.5, 0.1]} // Position the image section
+        position={[0, 0.5,0.06]} // Position the image section
       />
       {/* Description Section */}
           {/* Description Section */}
